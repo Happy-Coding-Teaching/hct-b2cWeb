@@ -86,7 +86,7 @@ function chooseCourse() {
 
     var img = document.createElement("img");
 
-    var imgSrc = "../assets/img/DM/"+x.options[x.selectedIndex].className+"/"+x.value+".jpg";
+    var imgSrc = "assets/img/DM/"+x.options[x.selectedIndex].className+"/"+x.value+".jpg";
     console.log(imgSrc);
     img.src = imgSrc;
     // img.width = "100%"; 
