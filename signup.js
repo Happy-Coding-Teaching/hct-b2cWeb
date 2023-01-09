@@ -90,8 +90,10 @@ function chooseCourse() {
     console.log(imgSrc);
     img.src = imgSrc;
     // img.width = "100%"; 
-    img.style.maxWidth = "1320px";
+    // img.style.maxWidth = "1320px";
+    img.style.width = "100%";
     var src = document.getElementById("setPic");
+    src.style.maxWidth = "1320px";
     src.innerHTML = "";
     src.appendChild(img);
 }
