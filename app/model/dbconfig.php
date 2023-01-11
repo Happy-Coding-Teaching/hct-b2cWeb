@@ -39,6 +39,6 @@ class dbconfig{
 
     }
 
-
+    
 }
 $db = new dbconfig();
