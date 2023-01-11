@@ -71,7 +71,7 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+    <section class="pt-2" >
       <div class="container">
         <section class="h-100 h-custom">
           <div class="container">
@@ -93,34 +93,31 @@
                         </div>
                         <div class="form-outline mb-4">
                           <label class="form-label" for="form3Example1q">家長電話</label>
-                          <input type="text" id="form3Example1q" class="form-control" name="parentsPhone"/>
+                          <input type="text" id="form3Example1q" class="form-control" name="parentsPhone" />
                         </div>
                       </div>
                       <div class="d-flex justify-content-between">
                         <div class="form-outline mb-4">
                           <label class="form-label" for="form3Example1q">學生姓名</label>
                           <div class="d-flex">
-                            <input type="text" id="form3Example1q" class="form-control" name="studentName"/>
+                            <input type="text" id="form3Example1q" class="form-control" name="studentName" />
                           </div>
                         </div>
-                        <div class="form-outline mb-4">
-                          <label class="form-label" for="form3Example1q">學生電話</label>
-                          <input type="text" id="form3Example1q" class="form-control" name="studentPhone"/>
+                        <div class="mb-4">
+
+                          <label for="exampleDatepicker1" class="form-label">學生年齡</label>
+
+                          <input type="text" class="form-control" id="exampleDatepicker1" name="studentGrade" />
+
                         </div>
-
                       </div>
 
-                      <div class="mb-4">
 
-                          <label for="exampleDatepicker1" class="form-label">學生年級</label>
-
-                          <input type="text" class="form-control" id="exampleDatepicker1" name="studentGrade"/>
-
-                      </div>
                       <div class="mb-4">
                         <label for="exampleDatepicker1" class="form-label">報名課程</label>
                         <div class="d-flex">
-                          <select class="form-select" name="case" onchange="chooseClass()" id="mySelect" aria-label="Default select example">
+                          <select class="form-select me-5" name="case" onchange="chooseClass()" id="mySelect"
+                            aria-label="Default select example" >
                             <option selected>選擇班別</option>
                             <option value="1">APCS專案班</option>
                             <option value="2">高中/成人</option>
@@ -128,7 +125,8 @@
                             <option value="4">國中</option>
                             <option value="5">寒令營</option>
                           </select>
-                          <select class="form-select" name="course" onchange="chooseCourse()" id="selectCourse" aria-label="Default select example">
+                          <select class="form-select mr-2" name="course" onchange="chooseCourse()" id="selectCourse"
+                            aria-label="Default select example">
                             <option selected>選擇課程</option>
                             <option value="APCSAdvanced" class="APCS" style="display: none;">APCS菁英考照班</option>
                             <option value="APCSBasic" class="APCS" style="display: none;">APCS零基礎先修班</option>
@@ -177,6 +175,18 @@
                             <option value="computer" class="middle" style="display: none;">電腦技能全修班</option>
                             <option value="HTML+CSS" class="middle" style="display: none;">網頁設計班</option>
                             <option value="appinventor2" class="winter" style="display: none;">appinventor2</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="mb-5">
+                        <label for="exampleDatepicker1" class="form-label">付款方式</label>
+                        <div class="d-flex">
+                          <select class="form-select " name="payment" 
+                            aria-label="Default select example" >
+                            <option selected>選擇付款方式</option>
+                            <option value="creditcard">HCT教育中心刷卡或付現</option>
+                            <option value="moneytransfer">匯款/轉帳</option>
+                            <option value="linepay">LINE PAY</option>
                           </select>
                         </div>
                       </div>
