@@ -83,7 +83,7 @@
                   <div class="card-body p-4 p-md-5">
                     <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">報名表</h3>
 
-                    <form method="post" action="" class="px-md-2">
+                    <form method="post" action="app/recieveData" class="px-md-2">
 
                       <div class="d-flex justify-content-between">
                         <div class="form-outline mb-4">
@@ -119,63 +119,84 @@
                         <div class="d-flex">
                           <select class="form-select me-5" name="case" onchange="chooseClass()" id="mySelect"
                             aria-label="Default select example" >
-                            <option selected>選擇班別</option>
-                            <option value="1">APCS專案班</option>
-                            <option value="2">高中/成人</option>
-                            <option value="3">國小</option>
-                            <option value="4">國中</option>
-                            <option value="5">寒令營</option>
+                            <?php
+                            if (isset($_GET["case"]) and $_GET["case"]!="" and isset($_GET["course"]) and $_GET["course"]!="" ){
+                              require_once("app\control\courseController.php");
+                              $course = New courseController($_GET["case"],$_GET["course"]);
+                              $course->showCaseName();  
+                            }
+                            else{
+                              echo'
+                              <option selected>選擇班別</option>
+                              <option value="APCS">APCS專案班</option>
+                              <option value="adult">高中/成人</option>
+                              <option value="junior">國小</option>
+                              <option value="middle">國中</option>
+                              <option value="winter">寒令營</option>';
+                            }
+                            ?>
                           </select>
                           <select class="form-select mr-2" name="course" onchange="chooseCourse()" id="selectCourse"
                             aria-label="Default select example">
-                            <option selected>選擇課程</option>
-                            <option value="APCSAdvanced" class="APCS" style="display: none;">APCS菁英考照班</option>
-                            <option value="APCSBasic" class="APCS" style="display: none;">APCS零基礎先修班</option>
-                            <option value="APCSBasicExam" class="APCS" style="display: none;">APCS零基礎考照班</option>
-                            <option value="AE" class="adult" style="display: none;">AE特效創作班</option>
-                            <option value="AI" class="adult" style="display: none;">AI平面設計班</option>
-                            <option value="C++" class="adult" style="display: none;">C++基礎入門</option>
-                            <option value="C" class="adult" style="display: none;">C語言基礎入門</option>
-                            <option value="DATABASE" class="adult" style="display: none;">DATABASE</option>
-                            <option value="EXCEL" class="adult" style="display: none;">EXCEL基礎班</option>
-                            <option value="EXCELAdvanced" class="adult" style="display: none;">EXCEL檢定班</option>
-                            <option value="HTML+CSS" class="adult" style="display: none;">HTML+CSS基礎入門</option>
-                            <option value="nodejs" class="adult" style="display: none;">node.js</option>
-                            <option value="PPT" class="adult" style="display: none;">PPT基礎班</option>
-                            <option value="PPTAdvanced" class="adult" style="display: none;">PPT檢定班</option>
-                            <option value="PR" class="adult" style="display: none;">PR導演養成班</option>
-                            <option value="PS" class="adult" style="display: none;">PS影像合成班</option>
-                            <option value="python-pygame" class="adult" style="display: none;">python-pygame</option>
-                            <option value="python-server" class="adult" style="display: none;">python-server</option>
-                            <option value="python" class="adult" style="display: none;">python基礎入門</option>
-                            <option value="pythonScreen" class="adult" style="display: none;">python視窗應用設計</option>
-                            <option value="WORD" class="adult" style="display: none;">WORD基礎班</option>
-                            <option value="WORDAdvanced" class="adult" style="display: none;">WORD檢定班</option>
-                            <option value="XAMARIN" class="adult" style="display: none;">XAMARIN基礎入門</option>
-                            <option value="WD" class="adult" style="display: none;">威導影音剪輯班</option>
-                            <option value="counseling" class="adult" style="display: none;">高中程式暨課業輔導專班</option>
-                            <option value="computer" class="adult" style="display: none;">電腦技能專修班</option>
-                            <option value="APP" class="junior" style="display: none;">APP基礎入門班</option>
-                            <option value="EXCEL" class="junior" style="display: none;">EXCEL基礎班</option>
-                            <option value="EXCELAdvanced" class="junior" style="display: none;">EXCEL檢定班</option>
-                            <option value="Line" class="junior" style="display: none;">Line貼圖設計班</option>
-                            <option value="PPT" class="junior" style="display: none;">PPT基礎班</option>
-                            <option value="PPTAdvanced" class="junior" style="display: none;">PPT檢定班</option>
-                            <option value="PS" class="junior" style="display: none;">PS影像合成班</option>
-                            <option value="Python" class="junior" style="display: none;">Python基礎入門班</option>
-                            <option value="ROBLOX" class="junior" style="display: none;">ROBLOX遊戲設計班</option>
-                            <option value="SCRATCH" class="junior" style="display: none;">SCRATCH積木程式班</option>
-                            <option value="WORD" class="junior" style="display: none;">WORD基礎班</option>
-                            <option value="WORDAdvanced" class="junior" style="display: none;">WORD檢定班</option>
-                            <option value="computer" class="junior" style="display: none;">電腦操作基礎特訓班</option>
-                            <option value="APP" class="middle" style="display: none;">APP基礎入門班</option>
-                            <option value="PS" class="middle" style="display: none;">PS影像合成班</option>
-                            <option value="python" class="middle" style="display: none;">python程式設計</option>
-                            <option value="ROBLOX" class="middle" style="display: none;">ROBLOX遊戲設計班</option>
-                            <option value="WD" class="middle" style="display: none;">威導影音剪輯班</option>
-                            <option value="computer" class="middle" style="display: none;">電腦技能全修班</option>
-                            <option value="HTML+CSS" class="middle" style="display: none;">網頁設計班</option>
-                            <option value="appinventor2" class="winter" style="display: none;">appinventor2</option>
+                            <?php
+                              if (isset($_GET["case"]) and $_GET["case"]!="" and isset($_GET["course"]) and $_GET["course"]!="" ){
+                                // require_once("app\control\courseController.php");
+                                // $course = New courseController($_GET["case"],$_GET["course"]);
+                                $course->showCourseName();
+                              }
+                              else{
+                                echo'
+                                <option selected>選擇課程</option>
+                                <option value="APCSAdvanced" class="APCS" style="display: none;">APCS菁英考照班</option>
+                                <option value="APCSBasic" class="APCS" style="display: none;">APCS零基礎先修班</option>
+                                <option value="APCSBasicExam" class="APCS" style="display: none;">APCS零基礎考照班</option>
+                                <option value="AE" class="adult" style="display: none;">AE特效創作班</option>
+                                <option value="AI" class="adult" style="display: none;">AI平面設計班</option>
+                                <option value="CPS" class="adult" style="display: none;">C++基礎入門</option>
+                                <option value="C" class="adult" style="display: none;">C語言基礎入門</option>
+                                <option value="DATABASE" class="adult" style="display: none;">DATABASE</option>
+                                <option value="EXCEL" class="adult" style="display: none;">EXCEL基礎班</option>
+                                <option value="EXCELAdvanced" class="adult" style="display: none;">EXCEL檢定班</option>
+                                <option value="HTML-CSS" class="adult" style="display: none;">HTML+CSS基礎入門</option>
+                                <option value="nodejs" class="adult" style="display: none;">node.js</option>
+                                <option value="PPT" class="adult" style="display: none;">PPT基礎班</option>
+                                <option value="PPTAdvanced" class="adult" style="display: none;">PPT檢定班</option>
+                                <option value="PR" class="adult" style="display: none;">PR導演養成班</option>
+                                <option value="PS" class="adult" style="display: none;">PS影像合成班</option>
+                                <option value="python-pygame" class="adult" style="display: none;">python-pygame</option>
+                                <option value="python-server" class="adult" style="display: none;">python-server</option>
+                                <option value="python" class="adult" style="display: none;">python基礎入門</option>
+                                <option value="pythonScreen" class="adult" style="display: none;">python視窗應用設計</option>
+                                <option value="WORD" class="adult" style="display: none;">WORD基礎班</option>
+                                <option value="WORDAdvanced" class="adult" style="display: none;">WORD檢定班</option>
+                                <option value="XAMARIN" class="adult" style="display: none;">XAMARIN基礎入門</option>
+                                <option value="WD" class="adult" style="display: none;">威導影音剪輯班</option>
+                                <option value="counseling" class="adult" style="display: none;">高中程式暨課業輔導專班</option>
+                                <option value="computer" class="adult" style="display: none;">電腦技能專修班</option>
+                                <option value="APP" class="junior" style="display: none;">APP基礎入門班</option>
+                                <option value="EXCEL" class="junior" style="display: none;">EXCEL基礎班</option>
+                                <option value="EXCELAdvanced" class="junior" style="display: none;">EXCEL檢定班</option>
+                                <option value="Line" class="junior" style="display: none;">Line貼圖設計班</option>
+                                <option value="PPT" class="junior" style="display: none;">PPT基礎班</option>
+                                <option value="PPTAdvanced" class="junior" style="display: none;">PPT檢定班</option>
+                                <option value="PS" class="junior" style="display: none;">PS影像合成班</option>
+                                <option value="Python" class="junior" style="display: none;">Python基礎入門班</option>
+                                <option value="ROBLOX" class="junior" style="display: none;">ROBLOX遊戲設計班</option>
+                                <option value="SCRATCH" class="junior" style="display: none;">SCRATCH積木程式班</option>
+                                <option value="WORD" class="junior" style="display: none;">WORD基礎班</option>
+                                <option value="WORDAdvanced" class="junior" style="display: none;">WORD檢定班</option>
+                                <option value="computer" class="junior" style="display: none;">電腦操作基礎特訓班</option>
+                                <option value="APP" class="middle" style="display: none;">APP基礎入門班</option>
+                                <option value="PS" class="middle" style="display: none;">PS影像合成班</option>
+                                <option value="python" class="middle" style="display: none;">python程式設計</option>
+                                <option value="ROBLOX" class="middle" style="display: none;">ROBLOX遊戲設計班</option>
+                                <option value="WD" class="middle" style="display: none;">威導影音剪輯班</option>
+                                <option value="computer" class="middle" style="display: none;">電腦技能全修班</option>
+                                <option value="HTML-CSS" class="middle" style="display: none;">網頁設計班</option>
+                                <option value="appinventor2" class="winter" style="display: none;">appinventor2</option>';
+                              }
+                            ?>
+     
                           </select>
                         </div>
                       </div>
