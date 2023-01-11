@@ -121,7 +121,7 @@
                             aria-label="Default select example" >
                             <?php
                             if (isset($_GET["case"]) and $_GET["case"]!="" and isset($_GET["course"]) and $_GET["course"]!="" ){
-                              require_once("app\control\courseController.php");
+                              require_once("app/control/courseController.php");
                               $course = New courseController($_GET["case"],$_GET["course"]);
                               $course->showCaseName();  
                             }
