@@ -1,0 +1,416 @@
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>HCT程式教育中心提供各項程式設計教學服務<span>.</span></h1>
+          <h2>不管是兒童或是成人皆有提供客製化教學</h2>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="public/img/S__25870422.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>HCT程式教育中心是一群在科技業界的工程師組成的教師團隊，以自身開發軟體的經驗來教學</h3>
+            <p class="fst-italic">
+              教學內容會根據目前業界中常用的軟體來時時更新教材，淘汰舊式程式語言，更新新式程式語法，讓學員走在業界的尖端
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>可以學習基礎程式語法以及業界常用語言</li>
+              <li><i class="ri-check-double-line"></i>根據學員學習狀況調整上課進度</li>
+              <li><i class="ri-check-double-line"></i>不只程式語言，常用的多媒體編輯器以及商用軟體也有詳細的教學</li>
+            </ul>
+            <p>
+              我們除了提供成人的程式教學以外，也提供兒童一整套的學習地圖，從熟悉電腦開始，熟悉鍵盤、中英打，到邏輯培養建立，最後的原生程式碼撰寫，一條龍的學習地圖，保證學員可以開心學習
+            </p>
+            <h3 class="text-danger">
+              兒童學習階段分為以下四個階段
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="image col-lg-6" style='background-image: url("public/img/255744.jpg");' data-aos="fade-right">
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <h4>環境熟悉</h4>
+              <p>
+                讓小朋友熟悉電腦環境，此階段為練習打字以及滑鼠使用，還有一些基礎的電腦操作為主(如何使用瀏覽器、基本的快捷鍵像是複製貼上等)，會搭配一些程式碼以及程式邏輯，但不要求小朋友記住，目的還是在讓小朋友熟悉打字以及了解程式是什麼
+              </p>
+              <p>
+                這階段會搭配很多遊戲，利用玩遊戲的方式來讓小朋友更加快速習慣鍵盤以及滑鼠的使用
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-cube-alt"></i>
+              <h4>邏輯培養</h4>
+              <p>此階段會以邏輯培養為主，像是程式語法，程式碼的運作方式，如何執行？但不會進入原生程式碼，以積木方塊為教學的主軸，可以嘗試製作一些小遊戲或是小動畫等</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-images"></i>
+              <h4>原生程式碼撰寫</h4>
+              <p>此階段會正式進入原生程式碼的撰寫，除了加深基本邏輯以外，會搭配許多題目練習，快速熟悉如何撰寫原生程式碼，以及基本的細節注意、程式除錯等</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <h4>專題撰寫</h4>
+              <p>最後則是根據興趣專向來開發專題，像是網頁前端(html5、css、js)的撰寫，後端(c#、nodejs...)開發，或是手機app的開發(flutter/xamarin)等等，從開發專案開始的題目建立、功能討論、畫面設計到撰寫程式碼，一步步完成專案</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Teaching Mode</h2>
+          <p>我們的教學模式</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">在家線上上課</a></h4>
+              <p>只要登入平台，預約上課，免去通勤的時間，在最舒服的環境快樂的學習</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">時時監控</a></h4>
+              <p>老師在上課期間可以觀看並控制學員的電腦，確保學員認真上課</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">問題排除解答</a></h4>
+              <p>當學員遇到問題或是有不了解的地方，按下按鈕或是利用文字打字，就會有老師馬上來協助你解決問題</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">語音交流</a></h4>
+              <p>老師可以聽到學員的聲音，也會視情況與學生語音交流幫助解決課上問題</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">課程進度控制</a></h4>
+              <p>老師會根據學員的學習狀況來調整課程進度，如果學員在學習上遇到困難或是聽不懂，老師會放慢教學，甚至再花費一堂課的時間加強學習，絕對不填鴨式教學，以學員學會為最大目的。</p>
+              <p>如果學員學習進度超前，老師也會根據情況來出進階題目練習，讓學員可以更深度的瞭解如何應用</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">自由活動練習</a></h4>
+              <p>在課後的時間，如果學員皆完成練習，並且確定課程內容皆學會，老師剩餘時間會提供獎勵時間讓學員可以自由活動或是自由練習</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3>聯繫我們</h3>
+          <p> 與我們聯絡，了解更多細節</p>
+          <a class="cta-btn" href="#contact">Call Us</a>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>夏/冬令營，學員minecraft創意作品</p>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <!-- <li data-filter=".filter-app">App</li> -->
+              <!-- <li data-filter=".filter-card">Card</li> -->
+              <!-- <li data-filter=".filter-web">Web</li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.24.13.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Brian、CC</h4>
+                <p>瀑布</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.24.13.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Brian、CC"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.24.17.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Brian、CC</h4>
+                <p>瀑布</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.24.17.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Brian、CC"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.24.54.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Brian、CC</h4>
+                <p>建築內裝</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.24.54.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Brian、CC"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.25.11.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Lily</h4>
+                <p>建築外觀</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.25.11.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Lily"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.25.39.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bella</h4>
+                <p>建築外觀</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.25.39.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Bella"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.25.49.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ken</h4>
+                <p>鳥居</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.25.49.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Ken"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/2022-08-26_20.26.06.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ian</h4>
+                <p>動物園</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/2022-08-26_20.26.06.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Ian"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/zh.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Howard</h4>
+                <p>建築外觀</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/zh.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Howard"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/kl.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Leo</h4>
+                <p>建築外觀</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/kl.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Leo"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/il.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Iris</h4>
+                <p>建築內裝</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/il.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Iris"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="public/img/portfolio/zn.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Joanne</h4>
+                <p>建築外觀</p>
+                <div class="portfolio-links">
+                  <a href="public/img/portfolio/zn.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Joanne"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>成員組成</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="public/img/team/gs.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>技術工程部</h4>
+                <span>負責處理軟硬體開發、問題解決</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="public/img/team/kz.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>課程部</h4>
+                <span>處理課程相關問題</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="public/img/team/sz.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>行政部</h4>
+                <span>處理文件等相關</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="public/img/team/yh.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>業務部</h4>
+                <span>介紹課程、QA問題排解</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>聯絡我們</p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>總部:</h4>
+                <p>高雄市左營區文天路92-1號</p>
+              </div>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>happycodingteaching@gmail.com</p>
+              </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>電話:</h4>
+                <p>0800-369-580</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+  </main><!-- End #main -->
+  

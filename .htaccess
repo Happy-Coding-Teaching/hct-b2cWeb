@@ -1,0 +1,26 @@
+RewriteEngine on
+# RewriteCond %{HTTPS} off
+# RewriteCond %{HTTP:X-Forwarded-SSL} !on
+# RewriteCond %{HTTP_HOST} ^biz\.hct369\.com\.tw$ [OR]
+# RewriteCond %{HTTP_HOST} ^www\.biz\.hct369\.com\.tw$
+# RewriteRule ^/?$ "https\:\/\/biz\.hct369\.com\.tw\/" [R=301,L]
+
+RewriteCond %{QUERY_STRING} ^page\=reference$
+RewriteRule ^index\.php$ /reference? [L]
+RewriteCond %{QUERY_STRING} ^page\=reference$
+RewriteRule ^index\.php$ /reference? [L]
+
+RewriteCond %{QUERY_STRING} ^current\=course&action\=showcourse$
+RewriteRule ^index\.php$ /course/? [L]
+
+RewriteCond %{QUERY_STRING} ^current\=course&action\=layoutpage&case\=apcs&course\=apcsbase$
+RewriteRule ^index\.php$ /course/apcs/apcsbase? [L]
+
+# RewriteCond %{QUERY_STRING} ^page\=reference$
+# RewriteRule ^index\.php$ /reference? [L]
+
+RewriteCond %{QUERY_STRING} ^page\=reference$
+RewriteRule ^hct\-b2cWeb/index\.php$ /hct-b2cWeb/reference? [R=301,L]
+
+Options -Indexes
+# php_flag display_errors on
