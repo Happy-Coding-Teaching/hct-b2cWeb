@@ -51,7 +51,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="signup.php" class="get-started-btn scrollto " style="visibility: visible;">線上報名</a>
+      <!-- <a href="signup.php" class="get-started-btn scrollto " style="visibility: visible;">線上報名</a> -->
     </div>
   </header><!-- End Header -->
   <main id="main">

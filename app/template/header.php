@@ -46,10 +46,10 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <form class="get-started-btn scrollto" action="" method="get">
+      <!-- <form class="get-started-btn scrollto" action="" method="get">
         <a href="javascript:;" onclick="parentNode.submit();">線上報名</a>
         <input type="hidden" name="controller" value="course"/>
         <input type="hidden" name="action" value="showCourse"/>
-      </form>
+      </form> -->
     </div>
   </header><!-- End Header -->
